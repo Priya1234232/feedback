@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000/api/feedback";
+const API = "https://feedback-backend-n69k.onrender.com/api/feedback";
 
 const emptyForm = {
   q1: "",
